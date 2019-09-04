@@ -11,10 +11,10 @@ router.get('/', (req, res) => {
 })
 
 
-//GET to /suppliers/:id/
-router.get('/:id', (req, res) => {
-    const {id} = req.params;
-    res.send(`get to /products/${id}`)
+//GET to /suppliers/:name/
+router.get('/:name', (req, res) => {
+    const {name} = req.params;
+    res.send(`get to /suppliers/${name}`)
 })
 
 
